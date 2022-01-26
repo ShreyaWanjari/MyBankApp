@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:textSize="23sp"
+        tools:text="Shreya"
+/>
+
+    <RelativeLayout
+        android:id="@+id/root_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/phoneIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/phon" />
+
+        <TextView
+            android:id="@+id/phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            tools:text="7425896310" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:id="@+id/Rupees"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="₹500"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>
